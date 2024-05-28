@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: rgb(218, 218, 243);
+}
+
+.main-div{
+    margin: 30px;
+}
+.main-div .main-text h1{
+    font-size: 50px;
+    margin-left: 900px;
+    margin-top: 60px;
+    font-weight: bold;
+    
+}
+.main-div .images{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    transition: all 0.5s ease;
+
+}
+.main-div .images .image1 img{
+    width: 400px;
+    height: 250px;
+    
+}
+.main-div .images .image1 img:hover {
+    width: 400px;
+    height: 250px;
+    border: 3px black solid;
+}
+.main-div .images .image2 img{
+    width: 400px;
+    height: 250px;
+}
+.main-div .images .image2 img:hover {
+    width: 400px;
+    height: 250px;
+    border: 3px black solid;
+}
+.main-div .images .image3 img{
+    width: 400px;
+    height: 250px;
+}
+.main-div .images .image3 img:hover {
+    width: 400px;
+    height: 250px;
+    border: 3px black solid;
+}
+.main-div .text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: 900px;
+    margin-top: 50px;
+}
+.main-div .text .p2{
+   
+    margin-left: 120px;
+}
+.main-div .text .p3{
+    margin-left: 80px;
+   
+}
+.date-text{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 290px;
+}
+ .main-div .button button{
+    text-align: center;
+    font-size: 80px;
+    width: 800px;
+    height: 800px;
+    border-radius: 1000px;
+    margin-left: 300px;
+    margin-top: 100px;
+    border: none;
+    transition: all 0.5s ease;
+    background-color: lightpink;
+}
+.main-div .button button:hover{
+    background-color: black ;
+    color: rgb(230, 219, 219);
+}
+.texts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.text1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 25px;
+    text-transform: uppercase;  
+    font-weight: 900px;
+}
+.text2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-top: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-transform: uppercase;  
+    font-weight: 900px;
+    
+}
+.text2 .p1{
+    margin-left: 500px;
+   
+}
+.text2 .p2{
+    margin-right: 350px;
+}
+.logo-images{
+    display: flex;
+    margin-top: 30px;
+}
+.logo-images .facebook img{
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s ease;
+
+   
+
+}
+.logo-images .facebook img:hover{
+   border: 3px rgb(235, 224, 224) solid;
+    height: 50px;
+}
+.logo-images .instra img{
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s ease;
+    margin-left: 20px;
+}
+.logo-images .instra img:hover{
+    border: 3px rgb(235, 224, 224) solid;
+    height: 50px;
+
+ }
+ .logo-images .twitter img{
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s ease;
+    margin-left: 20px;
+ }
+ .logo-images .twitter img:hover{
+    border: 3px rgb(235, 224, 224) solid;
+    height: 50px;
+
+ }
+ .name-text p{
+    font-size: 25px;
+    margin-left: 900px;
+    margin-top: 10px;
+ }
+.pagetext p{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 300px;
+    font-weight: bold;
+    color:black;
+}
+
+
